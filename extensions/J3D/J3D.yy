@@ -6,6 +6,8 @@
   "extensionVersion": "0.0.2",
   "packageId": "",
   "productId": "",
+  "author": "derme / GenieRobot (glTF import)",
+  "date": "2021-08-11T14:40:55.6476028+04:00",
   "helpfile": "",
   "iosProps": false,
   "tvosProps": false,
