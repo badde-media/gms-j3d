@@ -3,7 +3,7 @@
   "options": [],
   "exportToGame": true,
   "supportedTargets": -1,
-  "extensionVersion": "0.0.1",
+  "extensionVersion": "0.0.2",
   "packageId": "",
   "productId": "",
   "author": "Derne",
@@ -16,32 +16,10 @@
   "androidProps": false,
   "installdir": "",
   "files": [
-    {"filename":"j3d_main.js","origname":"extensions\\j3d_main.js","init":"","final":"","kind":5,"uncompress":false,"functions":[
-        {"externalName":"j3d_camera_perspective_create","kind":11,"help":"j3d_camera_perspective_create()","hidden":false,"returnType":2,"argCount":0,"args":[],"resourceVersion":"1.0","name":"j3d_camera_perspective_create","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"j3d_render","kind":11,"help":"j3d_render(renderer, scene, camera)","hidden":false,"returnType":2,"argCount":3,"args":[
-            2,
-            2,
-            2,
-          ],"resourceVersion":"1.0","name":"j3d_render","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"j3d_scene_create","kind":11,"help":"j3d_scene_create()","hidden":false,"returnType":2,"argCount":0,"args":[],"resourceVersion":"1.0","name":"j3d_scene_create","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"j3d_renderer_create","kind":11,"help":"j3d_renderer_create()","hidden":false,"returnType":2,"argCount":0,"args":[],"resourceVersion":"1.0","name":"j3d_renderer_create","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"j3d_create_block","kind":11,"help":"j3d_create_block(x, y, z, xl, yl, zl, col, scene)","hidden":false,"returnType":2,"argCount":8,"args":[
-            2,
-            2,
-            2,
-            2,
-            2,
-            2,
-            2,
-            2,
-          ],"resourceVersion":"1.0","name":"j3d_create_block","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"j3d_model_rotation_add","kind":11,"help":"j3d_model_rotation_add()","hidden":false,"returnType":2,"argCount":4,"args":[
-            2,
-            2,
-            2,
-            2,
-          ],"resourceVersion":"1.0","name":"j3d_model_rotation_add","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"j3d_camera_update","kind":11,"help":"j3d_camera_update(x, y, z, xi, yi, zi, camera)","hidden":false,"returnType":2,"argCount":7,"args":[
+    {"filename":"j3d_main.js","origname":"","init":"","final":"","kind":5,"uncompress":false,"functions":[
+        {"externalName":"j3d_scene_create","kind":5,"help":"j3d_scene_create()","hidden":false,"returnType":2,"argCount":0,"args":[],"resourceVersion":"1.0","name":"j3d_scene_create","tags":[],"resourceType":"GMExtensionFunction",},
+        {"externalName":"j3d_camera_perspective_create","kind":5,"help":"j3d_camera_perspective_create()","hidden":false,"returnType":2,"argCount":0,"args":[],"resourceVersion":"1.0","name":"j3d_camera_perspective_create","tags":[],"resourceType":"GMExtensionFunction",},
+        {"externalName":"j3d_camera_update","kind":5,"help":"j3d_camera_update(x, y, z, xi, yi, zi, camera)","hidden":false,"returnType":2,"argCount":-1,"args":[
             2,
             2,
             2,
@@ -50,27 +28,21 @@
             2,
             2,
           ],"resourceVersion":"1.0","name":"j3d_camera_update","tags":[],"resourceType":"GMExtensionFunction",},
-      ],"constants":[],"ProxyFiles":[],"copyToTargets":49385710,"order":[
-        {"name":"j3d_camera_perspective_create","path":"extensions/J3D/J3D.yy",},
-        {"name":"j3d_render","path":"extensions/J3D/J3D.yy",},
+        {"externalName":"j3d_renderer_create","kind":5,"help":"j3d_renderer_create()","hidden":false,"returnType":2,"argCount":0,"args":[],"resourceVersion":"1.0","name":"j3d_renderer_create","tags":[],"resourceType":"GMExtensionFunction",},
+        {"externalName":"j3d_render","kind":5,"help":"j3d_render(renderer, scene, camera)","hidden":false,"returnType":2,"argCount":-1,"args":[
+            2,
+            2,
+            2,
+          ],"resourceVersion":"1.0","name":"j3d_render","tags":[],"resourceType":"GMExtensionFunction",},
+      ],"constants":[],"ProxyFiles":[],"copyToTargets":32,"order":[
         {"name":"j3d_scene_create","path":"extensions/J3D/J3D.yy",},
-        {"name":"j3d_renderer_create","path":"extensions/J3D/J3D.yy",},
-        {"name":"j3d_create_block","path":"extensions/J3D/J3D.yy",},
-        {"name":"j3d_model_rotation_add","path":"extensions/J3D/J3D.yy",},
+        {"name":"j3d_camera_perspective_create","path":"extensions/J3D/J3D.yy",},
         {"name":"j3d_camera_update","path":"extensions/J3D/J3D.yy",},
+        {"name":"j3d_renderer_create","path":"extensions/J3D/J3D.yy",},
+        {"name":"j3d_render","path":"extensions/J3D/J3D.yy",},
       ],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
-    {"filename":"j3d_mod_lights.js","origname":"extensions\\j3d_mod_lights.js","init":"","final":"","kind":5,"uncompress":false,"functions":[
-        {"externalName":"j3d_light_define_point","kind":11,"help":"j3d_light_define_point(x,y,z,scene)","hidden":false,"returnType":2,"argCount":4,"args":[
-            2,
-            2,
-            2,
-            2,
-          ],"resourceVersion":"1.0","name":"j3d_light_define_point","tags":[],"resourceType":"GMExtensionFunction",},
-      ],"constants":[],"ProxyFiles":[],"copyToTargets":49385710,"order":[
-        {"name":"j3d_light_define_point","path":"extensions/J3D/J3D.yy",},
-      ],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
-    {"filename":"j3d_mod_shapes.js","origname":"extensions\\j3d_mod_shapes.js","init":"","final":"","kind":5,"uncompress":false,"functions":[
-        {"externalName":"j3d_create_block","kind":11,"help":"j3d_create_block(x, y, z, xl, yl, zl, col, scene)","hidden":false,"returnType":2,"argCount":8,"args":[
+    {"filename":"j3d_mod_shapes.js","origname":"","init":"","final":"","kind":5,"uncompress":false,"functions":[
+        {"externalName":"j3d_create_block","kind":5,"help":"j3d_create_block(x, y, z, xl, yl, zl, col, scene)","hidden":false,"returnType":2,"argCount":-1,"args":[
             2,
             2,
             2,
@@ -80,20 +52,57 @@
             2,
             2,
           ],"resourceVersion":"1.0","name":"j3d_create_block","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"j3d_model_rotation_add","kind":11,"help":"j3d_model_rotation_add(obj,xi,yi,zi)","hidden":false,"returnType":2,"argCount":4,"args":[
+        {"externalName":"j3d_create_sphere","kind":5,"help":"j3d_create_sphere(obj, x, y, z, r, seg, rings, scene)","hidden":false,"returnType":2,"argCount":-1,"args":[
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+          ],"resourceVersion":"1.0","name":"j3d_create_sphere","tags":[],"resourceType":"GMExtensionFunction",},
+        {"externalName":"j3d_model_rotation_add","kind":5,"help":"j3d_model_rotation_add(obj,xi,yi,zi)","hidden":false,"returnType":2,"argCount":-1,"args":[
             2,
             2,
             2,
             2,
           ],"resourceVersion":"1.0","name":"j3d_model_rotation_add","tags":[],"resourceType":"GMExtensionFunction",},
-      ],"constants":[],"ProxyFiles":[],"copyToTargets":49385710,"order":[
+        {"externalName":"j3d_model_translation_set","kind":5,"help":"j3d_model_translation_set(obj, xt, yt, zt,scene)","hidden":false,"returnType":2,"argCount":-1,"args":[
+            2,
+            2,
+            2,
+            2,
+            2,
+          ],"resourceVersion":"1.0","name":"j3d_model_translation_set","tags":[],"resourceType":"GMExtensionFunction",},
+      ],"constants":[],"ProxyFiles":[],"copyToTargets":32,"order":[
         {"name":"j3d_create_block","path":"extensions/J3D/J3D.yy",},
+        {"name":"j3d_create_sphere","path":"extensions/J3D/J3D.yy",},
         {"name":"j3d_model_rotation_add","path":"extensions/J3D/J3D.yy",},
+        {"name":"j3d_model_translation_set","path":"extensions/J3D/J3D.yy",},
+      ],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
+    {"filename":"j3d_mod_lights.js","origname":"","init":"","final":"","kind":5,"uncompress":false,"functions":[
+        {"externalName":"j3d_light_define_point","kind":5,"help":"j3d_light_define_point(x,y,z,scene)","hidden":false,"returnType":2,"argCount":-1,"args":[
+            2,
+            2,
+            2,
+            2,
+          ],"resourceVersion":"1.0","name":"j3d_light_define_point","tags":[],"resourceType":"GMExtensionFunction",},
+      ],"constants":[],"ProxyFiles":[],"copyToTargets":32,"order":[
+        {"name":"j3d_light_define_point","path":"extensions/J3D/J3D.yy",},
+      ],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
+    {"filename":"j3d_gltf_load.js","origname":"","init":"","final":"","kind":5,"uncompress":true,"functions":[
+        {"externalName":"j3d_gltf_load","kind":5,"help":"j3d_gltf_load(pathToModel, scene)","hidden":false,"returnType":2,"argCount":-1,"args":[
+            1,
+            2,
+          ],"resourceVersion":"1.0","name":"j3d_gltf_load","tags":[],"resourceType":"GMExtensionFunction",},
+      ],"constants":[],"ProxyFiles":[],"copyToTargets":32,"order":[
+        {"name":"j3d_gltf_load","path":"extensions/J3D/J3D.yy",},
       ],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
   ],
   "classname": "",
-  "tvosclassname": "",
-  "tvosdelegatename": "",
+  "tvosclassname": null,
+  "tvosdelegatename": null,
   "iosdelegatename": "",
   "androidclassname": "",
   "sourcedir": "",
@@ -103,12 +112,12 @@
   "tvosmaccompilerflags": "",
   "maclinkerflags": "",
   "tvosmaclinkerflags": "",
-  "iosplistinject": "",
-  "tvosplistinject": "",
-  "androidinject": "",
-  "androidmanifestinject": "",
-  "androidactivityinject": "",
-  "gradleinject": "",
+  "iosplistinject": null,
+  "tvosplistinject": null,
+  "androidinject": null,
+  "androidmanifestinject": null,
+  "androidactivityinject": null,
+  "gradleinject": null,
   "iosSystemFrameworkEntries": [],
   "tvosSystemFrameworkEntries": [],
   "iosThirdPartyFrameworkEntries": [],
