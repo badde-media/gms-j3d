@@ -1,9 +1,8 @@
 // J3D GLTF LOAD
 function j3d_gltf_load(pathToModel, scene) {
+   
     
-    import { GLTFLoader } from 'GLTFLoader.js';
-    
-    const loader = new GLTFLoader();
+    let loader = new GLTFLoader();
 
     loader.load( pathToModel, function ( gltf ) {
 

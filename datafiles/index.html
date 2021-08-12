@@ -15,10 +15,20 @@
         <link rel='stylesheet' href='html5game/theme.css' type='text/css' media='all' />
 		
 	<!-- Call JS References -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-	      <script type='text/javascript' src="html5game/three.min.js"></script>
-	      <script type='text/javascript' src="html5game/three.module.js"></script>
-	      <script type='text/javascript' src="html5game/GLTFLoader.js"></script>
+        <script type='text/javascript' src="html5game/jquery-3.6.0.min.js"></script>
+ 	      <!--<script type='text/javascript' src="html5game/build/three.min.js"></script>
+        <script type='module' src="./html5game/build/three.module.js"></script> 
+	      <script type='module' src="./html5game/examples/jsm/loaders/GLTFLoader.js"></script><!--//./html5game/GLTFLoader.js"></script>-->
+        <script type='module'>
+          import * as THREE from './html5game/build/three.module.js';
+          import { GLTFLoader } from './html5game/examples/jsm/loaders/GLTFLoader.js';
+
+          //import * as THREE from './html5game/build/three.module.js';
+          //import { GLTFLoader } as GLTFLoader from './html5game/GLTFLoader.js';
+          // window.loader = new GLTFLoader();
+        </script>
+
+        
     </head>
 
     <body>

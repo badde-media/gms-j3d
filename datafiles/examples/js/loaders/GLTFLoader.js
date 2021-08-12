@@ -3821,6 +3821,6 @@
 
 	}
 
-	export THREE.GLTFLoader = GLTFLoader;
+	THREE.GLTFLoader = GLTFLoader;
 
 } )();

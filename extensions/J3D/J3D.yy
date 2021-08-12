@@ -89,12 +89,12 @@
       ],"constants":[],"ProxyFiles":[],"copyToTargets":32,"order":[
         {"name":"j3d_light_define_point","path":"extensions/J3D/J3D.yy",},
       ],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
-    {"filename":"j3d_gltf_load.js","origname":"","init":"","final":"","kind":5,"uncompress":true,"functions":[
-        {"externalName":"j3d_gltf_load","kind":5,"help":"j3d_gltf_load(pathToModel, scene)","hidden":false,"returnType":2,"argCount":-1,"args":[
+    {"filename":"j3d_gltf_load.js","origname":"","init":"","final":"","kind":5,"uncompress":false,"functions":[
+        {"externalName":"j3d_gltf_load","kind":5,"help":"j3d_gltf_load( PathToFile, scene);","hidden":false,"returnType":2,"argCount":-1,"args":[
             1,
             2,
           ],"resourceVersion":"1.0","name":"j3d_gltf_load","tags":[],"resourceType":"GMExtensionFunction",},
-      ],"constants":[],"ProxyFiles":[],"copyToTargets":32,"order":[
+      ],"constants":[],"ProxyFiles":[],"copyToTargets":-1,"order":[
         {"name":"j3d_gltf_load","path":"extensions/J3D/J3D.yy",},
       ],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
   ],

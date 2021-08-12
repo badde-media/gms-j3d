@@ -1,5 +1,4 @@
 // J3D MAIN
-
 var arr_scenes = [];
 var arr_scenes_ind = 0;
 var arr_renderers = [];

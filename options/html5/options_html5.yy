@@ -10,7 +10,7 @@
   "option_html5_localrunalert": true,
   "option_html5_index": "index.html",
   "option_html5_loadingbar": "Use Default",
-  "option_html5_jsprepend": "",
+  "option_html5_jsprepend": "window.localStorage = undefined;",
   "option_html5_icon": "${options_dir}/html5/fav.ico",
   "option_html5_allow_fullscreen": true,
   "option_html5_interpolate_pixels": true,
